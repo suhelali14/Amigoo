@@ -1,0 +1,238 @@
+body{
+    background-color: #B9FFF8;
+    font-family: 'Sacramento', cursive;;
+    text-align: center;
+}
+
+.header h1{
+   margin: 0 auto 0 auto;
+   font-size: 3em;
+   color: #229655;
+   padding: 0%;
+   display: inline-block;
+   
+}
+.header h1:hover{
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.logo{
+    width: 10%;
+}
+.logo:hover{
+    transform: scale(1.5);
+}
+
+
+.navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.navbar ul li{
+    text-decoration: none;
+    
+    padding: 1%;
+    list-style: none;
+    font-family: 'Baloo 2', cursive;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size:1rem;
+    
+}
+/*.navbar ul li:hover{
+  color: rgb(21, 49, 74);
+  background: #dff3ff;
+  background-image: -webkit-linear-gradient(top, #ffe0c1, #fafafa);
+  background-image: -webkit-linear-gradient(bottom, #ffe0c1, #fafafa);
+  text-decoration: none;
+  border-radius: 15%;
+
+}*/
+.navbar ul li a:hover{
+    color: rgb(21, 49, 74);
+    background: #dff3ff;
+    background-image: -webkit-linear-gradient(top, #ffe0c1, #fafafa);
+    background-image: -webkit-linear-gradient(bottom, #ffe0c1, #fafafa);
+    text-decoration: none;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    transform: scale(2);
+    cursor: pointer;
+  }
+
+#span1 {
+    position: relative;
+    font-family: "Avenir Next", cursive;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    margin-left: 5%;
+    color: rgb(169, 116, 198);
+  }
+.container{
+    background-color: rgba(255, 255, 255, 0.908);
+    margin:3%;
+    border-radius: 10%;
+    
+   
+}  
+
+.container:hover{
+    box-shadow: -20px -20px  5px rgba(128, 128, 128, 0.494),
+            inset -4px -4px 2px rgba(205, 205, 205, 0.796),
+            inset 4px 4px 2px rgba(205, 205, 205, 0.796),
+                 20px 20px  5px rgba(128, 128, 128, 0.494);
+    ;
+    transform:scale(1.2);
+}
+
+.container2{
+    background-color: rgba(255, 206, 206, 0.908);
+    margin:5% 30%;
+    border-radius: 10%;
+    box-shadow: -20px -20px  5px rgba(128, 128, 128, 0.494),
+            inset -4px -4px 2px rgba(205, 205, 205, 0.796),
+            inset 4px 4px 2px rgba(205, 205, 205, 0.796),
+                 20px 20px  5px rgba(128, 128, 128, 0.494);
+    
+    
+   
+} 
+
+.container2 form label{
+    font-size: 1.5rem;
+}
+ 
+.container3{
+    background-color: #FFE3E3;
+    
+}
+.container3 ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 ;
+
+}
+.container3 ul li{
+    text-decoration: none;
+    padding: 1%;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+}
+.container3 ul li a{
+    text-decoration: none;
+}.container3 ul li:hover{
+    background-color: aliceblue;
+    color: #A66CFF;
+    border-radius: 20%;
+    font-size: 1;
+}
+.container3 ul li a:hover{
+    background-color: aliceblue;
+    color: #A66CFF;
+    border-radius: 1.5rem;
+    transform: scale(2);
+    font-size: 1.5rem;
+
+}
+.servicecont{
+    background-color: #FFE3E3;
+
+
+    
+}
+.divmain{
+    margin: 0% 5%;
+    box-shadow: -20px -20px  5px rgba(128, 128, 128, 0.12),
+            inset -4px -4px 2px rgba(205, 205, 205, 0.12),
+            inset 4px 4px 2px rgba(205, 205, 205, 0.12),
+                 20px 20px  5px rgba(128, 128, 128, 0.12);
+}
+.divmain:hover{
+    transform: scale(1.12);
+    box-shadow: -20px -20px  5px rgba(128, 128, 128, 0.494),
+            inset -4px -4px 2px rgba(205, 205, 205, 0.796),
+            inset 4px 4px 2px rgba(205, 205, 205, 0.796),
+                 20px 20px  5px rgba(128, 128, 128, 0.494);
+}
+
+.servicecont label{
+    font-family: 'Baloo 2', cursive;
+    color: #A66CFF;
+    font-size: 2rem;
+}
+
+
+#servicetypes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#servicetypes li{
+    text-decoration: none;
+    padding: 1%;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+}
+#servicetypes li:hover{
+    background-color: aliceblue;
+    color: #002b45;
+    border-radius: 20%;
+    font-size: 1.5rem;
+}
+#servicetypes li a{
+    color: #9C9EFE;
+}
+
+/*contactus animation*/
+/*.....................................................*/
+#contactus{
+    width: 80%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+.lastcontainer{
+    background-image: url(https://www.designbolts.com/wp-content/uploads/2014/03/Bright-Blue1.jpg);
+    margin: 0%  20%;
+}
+.left{
+    margin-left: -7%;
+    padding-left: 0%;
+}
+.right{
+    padding-right: 5%;
+    font-family: 'Baloo 2', cursive;
+
+}
+.right input{
+    border-radius: 2rem;
+    border-width: 1px;
+    
+}
+.right input:focus{
+     transform: scale(1.5);
+}
+
+.lastcontainer:hover{
+    box-shadow: -20px -20px  5px rgba(128, 128, 128, 0.494),
+            inset -4px -4px 2px rgba(205, 205, 205, 0.796),
+            inset 4px 4px 2px rgba(205, 205, 205, 0.796),
+                 20px 20px  5px rgba(128, 128, 128, 0.494);
+    ;
+    transform:scale(1.28);
+}
+
+#textarea{
+    border-radius: 2rem;
+}
