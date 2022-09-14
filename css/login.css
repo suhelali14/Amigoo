@@ -8,7 +8,12 @@ body{
 
 #btn_b{
     visibility: hidden;
-  }
+    text-align: left;
+    display: block;
+}
+#check{
+    display: none;
+}
 .header h1{
    margin: 0 auto 0 auto;
    font-size: 3em;
@@ -367,7 +372,9 @@ body{
 
 
 @media only screen and (max-width:391px){
-    
+    #btn_b{
+        visibility: visible;
+    }
     .logo{
         width: 25%;
         display: block;
