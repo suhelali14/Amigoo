@@ -537,6 +537,14 @@ body{
         background: #00ADB5;
         
     }
+    .container2{
+        display: block;
+        padding: 0%;
+    }
+    .subcont3{
+         padding: 5%;
+    
+    }
 
 
 }
